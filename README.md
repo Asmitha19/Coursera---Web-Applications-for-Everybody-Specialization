@@ -1,4 +1,4 @@
-# Coursera---Web-Applications-for-Everybody-Specialization
+# Coursera - Web Applications for Everybody Specialization
 
 This repository contains answers to quiz and assignments for all the courses in the specialization - "Web Applications for Everybody" 
 
