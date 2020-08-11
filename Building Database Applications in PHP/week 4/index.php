@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Asmitha (ddb15d13) - Autos with Post-Redirect</title>
+<title>Asmitha B - Autos with Post-Redirect</title>
 <?php require_once "bootstrap.php"; ?>
 </head>
 <body>
