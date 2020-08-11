@@ -15,7 +15,7 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <html>
 <head>
 <?php require_once "bootstrap.php"; ?>
-<title>Asmitha's (ddb15d13) Automobile Tracker</title>
+<title>Asmitha's Automobile Tracker</title>
 </head>
 <body>
 <div class="container">
