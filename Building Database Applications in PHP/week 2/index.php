@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Asmitha (6a76035c) - Autos Database</title>
+<title>Asmitha's - Autos Database</title>
 <?php require_once "bootstrap.php"; ?>
 </head>
 <body>
