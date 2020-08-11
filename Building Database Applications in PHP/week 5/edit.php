@@ -69,7 +69,7 @@ $aid = htmlentities($row['autos_id']);
 <html>
 <head>
 <?php require_once "bootstrap.php"; ?>
-<title>ASMITHA B's (ddb15d13) Automobile Tracker</title>
+<title>ASMITHA B's Automobile Tracker</title>
 </head>
 <body>
 <div class="container">
