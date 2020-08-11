@@ -1,0 +1,9 @@
+1.Question 1
+Why is it important to have extensive error checking on SQL statements when an application is in production?
+ANS : All of the above
+
+
+2.Question 2
+What is the purpose of the PDO::errorinfo() data?
+ANS : It gives extended detail when a PDO function returns an error
+

@@ -1,0 +1,21 @@
+Finding Cookies and Sessions in a Haystack
+
+Welcome ASMITHA B from Building Database Applications in PHP
+
+This application has stored a cookie named wa4e_secret_cookie in your browser. You must find the value of that cookie and enter it on this form.
+
+You must also figure out your session identifier. It is either a GET parameter or a cookie value named PHPSESSID. 
+If you have both a GET parameter and a Cookie, then either session ID will work for this assignment.
+
+This assignment is best completed using "Developer Mode" of your browser.
+
+Enter your values in each of the fields below and press "Submit".
+
+-------------------------------------------------------------------------------
+
+Enter Cookie Value: 
+9a4ebd8c15daeaf27989414874df0bf2
+
+Enter SessionID: 
+f75d3b8863b0f1bd06be9f613313c540
+

@@ -1,0 +1,14 @@
+Assignment Specification: Autos Database
+
+In this next assignment you will build a web based application to track data about automobiles and store the data in a MySQL database. 
+----------------------------------------------------------------------------------------------------------------------------------------------
+create database misc;
+GRANT ALL ON misc.* TO 'root'@'localhost' IDENTIFIED BY 'root';
+GRANT ALL ON misc.* TO 'root'@'127.0.0.1' IDENTIFIED BY 'root';
+
+CREATE TABLE autos (
+auto_id INT UNSIGNED NOT NULL AUTO_INCREMENT KEY,
+make VARCHAR(128),
+year INTEGER,
+mileage INTEGER
+);
