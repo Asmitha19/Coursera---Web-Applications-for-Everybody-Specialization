@@ -32,7 +32,7 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <html>
 <head>
 <?php require_once "bootstrap.php"; ?>
-<title>Asmitha's (6a76035c) Autos Page</title>
+<title>Asmitha's Autos Page</title>
 </head>
 <body>
 <div class="container">
