@@ -41,7 +41,7 @@ if (isset($_POST['make']) && isset($_POST['year']) && isset($_POST['mileage'])) 
 <html>
 <head>
 <?php require_once "bootstrap.php"; ?>
-<title>Asmitha's (ddb15d13) Automobile Tracker</title>
+<title>Asmitha's Automobile Tracker</title>
 </head>
 <body>
 <div class="container">
