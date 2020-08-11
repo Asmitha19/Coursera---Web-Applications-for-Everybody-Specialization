@@ -13,7 +13,7 @@ $rows = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <!DOCTYPE html>
 <html>
 <head>
-<title>ASMITHA B's (ddb15d13) Index Page</title>
+<title>ASMITHA B's Index Page</title>
 <?php require_once "bootstrap.php"; ?>
 </head>
 <body>
