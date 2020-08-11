@@ -1,0 +1,34 @@
+Assignment Specification: HyperText Markup Language (HTML)
+
+In this next assignment, you will build a simple valid HTML5 page that demonstrates a number of tags. 
+Your page will be well-formed HTML5, and indicate that it is in the UTF-8 character set:
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jane Instructor</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    ...
+  </body>
+</html>
+
+
+HTML Sample Code (Browse) : https://www.wa4e.com/code/html/index.htm
+
+HTML Sample Code (Download)
+
+Your HTML must pass the validator at: https://validator.w3.org/nu/
+
+
+Optional: If the HTML validator above suggests you add a lang attribute to the html start tag, it's a warning not an error. 
+It is not required for the assignment. There is no example posted here because the lang code has many values, you might like to check out the w3schools HTML ISO Language page.
+
+The title tag must contain your name or the string indicated by the autograder.
+
+
+You must have at least one example of each of the following tags: span, p, div, h1, and ul
+
+You must have three a tags and three li tags.
+
+You must have some bold text in the document and some italics text in the document but you cannot use the b or i tags. The autograder will only grade HTML, and ignore any CSS.

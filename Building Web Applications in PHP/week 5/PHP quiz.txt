@@ -1,0 +1,75 @@
+1. What does PHP stand for?
+ANS : PHP: Hypertext Preprocessor
+
+
+2. PHP Server scripts are surrounded by?
+ANS : <?php ... ?>
+
+
+3. The PHP syntax is most similar to:
+ANS : Perl and C
+
+
+4. Which of the following are operators in PHP?
+ANS : ===, ++, !=
+
+
+5. What is the output of the following?
+	$x = 12;
+	$y = 12 + $x++;
+ 	echo "y = $y x = $x";
+ANS : y = 24 x = 13
+
+
+6. What value will var_dump show that echo will not show?
+ANS : False
+
+
+7. What is a correct way to add a comment in PHP?
+ANS : /* ... */
+
+
+8. All variables in PHP start with [_________] symbol.
+ANS : $
+
+
+9. What is the value returned by: (int) 9.9 - 1
+ANS : 8
+
+
+10. Use the [_____] operator to test if two values are identical in both value and type.
+ANS : ===
+
+
+11. What is the value of $x?
+	$x = 1200 + "34";
+ANS : 1234
+
+
+12. In PHP you can use both single quotes ( ' ' ) and double quotes ( " " ) for strings.
+ANS : True
+
+
+13. PHP and HTML cannot be intermingled in the same file.
+ANS : False
+
+
+14. Which escape sequences can be used in single quoted ( ' ) strings in PHP?
+ANS : \\, \'
+
+
+15. You cannot run PHP files from the command line.
+ANS : False
+
+
+16. You can run PHP files on a server.
+ANS : True
+
+
+17. In PHP, variable names are case sensitive.
+ANS : True
+
+
+18. In PHP, functions names are not case sensitive.
+ANS : True
+
