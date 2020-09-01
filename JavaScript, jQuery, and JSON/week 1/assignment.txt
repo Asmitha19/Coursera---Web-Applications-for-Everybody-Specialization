@@ -1,0 +1,54 @@
+Assignment Specification: JavaScript/Profiles
+--------------------------------------------------
+In this next assignment you will write a simple resume database that support Create, Read, Update, and Delete operations (CRUD). 
+You will also move user information into its own table and link entries between two tables using foreign keys. 
+You will also add some in-browser JavaScript data validation.
+
+Sample solution
+You can explore a sample solution for this problem at http://www.wa4e.com/solutions/res-profile/
+
+--------------------------------------------------
+Databases and Tables Required for the Assignment
+
+CREATE DATABASE misc DEFAULT CHARACTER SET utf8 ;
+
+GRANT ALL ON misc.* TO 'root'@'localhost' IDENTIFIED BY 'root';
+GRANT ALL ON misc.* TO 'root'@'127.0.0.1' IDENTIFIED BY 'root';
+
+
+You will need to have a users table and Profile table as follows:
+
+CREATE TABLE users (
+  user_id INTEGER NOT NULL AUTO_INCREMENT,
+  name VARCHAR(128),
+  email VARCHAR(128),
+  password VARCHAR(128),
+  PRIMARY KEY(user_id)
+) ENGINE = InnoDB DEFAULT CHARSET=utf8;
+
+ALTER TABLE users ADD INDEX(email);
+ALTER TABLE users ADD INDEX(password);
+
+
+Once you create the users table above, you will need to insert a single user record into the "users" table using this SQL:
+
+INSERT INTO users (name,email,password) VALUES ('UMSI','umsi@umich.edu','1a52e17fa899cf40fb04cfc42e6352f1');
+
+
+CREATE TABLE Profile (
+  profile_id INTEGER NOT NULL AUTO_INCREMENT,
+  user_id INTEGER NOT NULL,
+  first_name TEXT,
+  last_name TEXT,
+  email TEXT,
+  headline TEXT,
+  summary TEXT,
+  PRIMARY KEY(profile_id),
+  CONSTRAINT profile_ibfk_2
+  FOREIGN KEY (user_id)
+  REFERENCES users (user_id)
+  ON DELETE CASCADE ON UPDATE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+ 
+
+This table has a foreign key to the users table. 
