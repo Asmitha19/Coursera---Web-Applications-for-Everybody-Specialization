@@ -1,0 +1,14 @@
+body {
+  padding-top: 50px;
+  background-color: #F7E8E8;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+table {
+  width:40%;
+  text-align:center;
+  border: 2px solid black;
+}
